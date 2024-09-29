@@ -76,11 +76,11 @@ pipeline {
             }
         }
 
-        stage('2. Approval') {
-            steps {
-                input message: 'Approve deployment?'
-            }
-        }
+        // stage('2. Approval') {
+        //     steps {
+        //         input message: 'Approve deployment?'
+        //     }
+        // }
 
         stage("3. Deployment") {
             steps {
