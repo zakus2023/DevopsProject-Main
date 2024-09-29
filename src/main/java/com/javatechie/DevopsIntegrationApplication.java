@@ -11,7 +11,7 @@ public class DevopsIntegrationApplication {
 
 	@GetMapping
 	public String message(){
-		return "Welcome to Abdul's DevOps Project !! Yes this is Abdul";
+		return "Welcome to Abdul's DevOps Project !! Yes this is Abdul OK";
 	}
 
 	public static void main(String[] args) {
